@@ -1,0 +1,14 @@
+<div class="main-container">
+    <mat-toolbar color="warn" class="main-toolbar">
+        <mat-toolbar-row>
+            <button mat-icon-button>
+                <mat-icon>menu</mat-icon>
+            </button>
+            <h1>PeopleNTech</h1>
+            <span class="menu-spacer"></span>
+            <a mat-button [routerLink]="['/home']">Home</a>
+            <a mat-button [routerLink]="['/masterView']">MasterDetails</a>
+        </mat-toolbar-row>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+</div>

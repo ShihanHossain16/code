@@ -1,0 +1,68 @@
+<div class="wrapper container mt-4">
+    <form [formGroup]="candidateForm" (ngSubmit)="insertCandidate()">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="mat-headline-3">Candidate Details</h2>
+                <div class="row mb-2">
+                    <label class="col-form-label col-form-label-sm col-3" for="candidateName">Candidate Name</label>
+                    <div class="col-7">
+                        <input type="text" formControlName="candidateName" class="form-control form-control-sm">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <label class="col-form-label col-form-label-sm col-3" for="candidateName">Birth Date</label>
+                    <div class="col-7">
+                        <input type="date" formControlName="birthDate" class="form-control form-control-sm">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <label class="col-form-label col-form-label-sm col-3" for="candidateName">Phone No</label>
+                    <div class="col-7">
+                        <input type="text" formControlName="phoneNo" class="form-control form-control-sm">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <label class="col-form-label col-form-label-sm col-3" for="candidateName">Picture</label>
+                    <div class="col-7">
+                        <input type="file" class="form-control form-control-sm" (change)="onFileSelected($event)">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <label class="col-form-label col-form-label-sm col-3" for="candidateName">Fresher</label>
+                    <div class="col-7">
+                        <input type="checkbox" formControlName="fresher" class="form-check-inline">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-9 offset-3">
+                        <button class="btn btn-primary btn-sm" type="submit">Save to Database</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <h2 class="mat-headline-3">Skill List</h2>
+                <div class="d-flex justify-content-end mb-2">
+                    <button type="button" class="btn btn-outline-info" (click)="addSkill()">+</button>
+                </div>
+                <ng-container formArrayName="skillList">
+                    <ng-container *ngFor="let p of skillListArray.controls; let i=index">
+                        <div [formGroupName]="i">
+                            <div class="row mb-2">
+                                <div class="col-9">
+                                    <select formControlName="skillId" class="form-select form-select-sm">
+                                        <option value="null" disabled>----Select-----</option>
+                                        <option *ngFor="let item of skillList" value="{{item.skillId}}">
+                                            {{item.skillName}}</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-danger btn-sm" (click)="removeSkillList(i)">X</button>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-container>
+                </ng-container>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|d:\\azman\\pgd_05\\m_05_core_api_angular\\class_017\\pgd_05_m_05_core_api_angular_d010\\work_01_masterdetails_api\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|solutionrelative:work_01_masterdetails_api\\controllers\\candidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|d:\\azman\\pgd_05\\m_05_core_api_angular\\class_017\\pgd_05_m_05_core_api_angular_d010\\work_01_masterdetails_api\\models\\viewmodels\\candidatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|solutionrelative:work_01_masterdetails_api\\models\\viewmodels\\candidatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|d:\\azman\\pgd_05\\m_05_core_api_angular\\class_017\\pgd_05_m_05_core_api_angular_d010\\work_01_masterdetails_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|solutionrelative:work_01_masterdetails_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|d:\\azman\\pgd_05\\m_05_core_api_angular\\class_017\\pgd_05_m_05_core_api_angular_d010\\work_01_masterdetails_api\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|solutionrelative:work_01_masterdetails_api\\models\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|d:\\azman\\pgd_05\\m_05_core_api_angular\\class_017\\pgd_05_m_05_core_api_angular_d010\\work_01_masterdetails_api\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|solutionrelative:work_01_masterdetails_api\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|d:\\azman\\pgd_05\\m_05_core_api_angular\\class_017\\pgd_05_m_05_core_api_angular_d010\\work_01_masterdetails_api\\models\\candidateskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA35F8B-F9A1-D3FB-C8AE-3C084EBE78A0}|work_01_MasterDetails_API\\work_01_MasterDetails_API.csproj|solutionrelative:work_01_masterdetails_api\\models\\candidateskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\appsettings.json",
+              "RelativeDocumentMoniker": "work_01_MasterDetails_API\\appsettings.json",
+              "ToolTip": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\appsettings.json",
+              "RelativeToolTip": "work_01_MasterDetails_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-10T13:04:21.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "work_01_MasterDetails_API\\Models\\Skill.cs",
+              "ToolTip": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\Skill.cs",
+              "RelativeToolTip": "work_01_MasterDetails_API\\Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T13:17:18.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CandidateSkill.cs",
+              "DocumentMoniker": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\CandidateSkill.cs",
+              "RelativeDocumentMoniker": "work_01_MasterDetails_API\\Models\\CandidateSkill.cs",
+              "ToolTip": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\CandidateSkill.cs",
+              "RelativeToolTip": "work_01_MasterDetails_API\\Models\\CandidateSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T13:04:27.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\Candidate.cs",
+              "RelativeDocumentMoniker": "work_01_MasterDetails_API\\Models\\Candidate.cs",
+              "ToolTip": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\Candidate.cs",
+              "RelativeToolTip": "work_01_MasterDetails_API\\Models\\Candidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:24.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CandidateVM.cs",
+              "DocumentMoniker": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\ViewModels\\CandidateVM.cs",
+              "RelativeDocumentMoniker": "work_01_MasterDetails_API\\Models\\ViewModels\\CandidateVM.cs",
+              "ToolTip": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Models\\ViewModels\\CandidateVM.cs",
+              "RelativeToolTip": "work_01_MasterDetails_API\\Models\\ViewModels\\CandidateVM.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:28:15.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandidatesController.cs",
+              "DocumentMoniker": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Controllers\\CandidatesController.cs",
+              "RelativeDocumentMoniker": "work_01_MasterDetails_API\\Controllers\\CandidatesController.cs",
+              "ToolTip": "D:\\Azman\\PGD_05\\M_05_Core_API_Angular\\Class_017\\PGD_05_M_05_Core_API_Angular_D010\\work_01_MasterDetails_API\\Controllers\\CandidatesController.cs",
+              "RelativeToolTip": "work_01_MasterDetails_API\\Controllers\\CandidatesController.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAuwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T13:27:35.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<div class="row no-gutters border p-2">
+    <div class="col">
+        <div class="d-flex justify-content-between">
+            <h2 class="mat-headline-5">Candidate Details</h2>
+            <div class="d-flex justify-content-end mb-4">
+                <button type="button" [routerLink]="['/masterCreate']" class="btn btn-primary btn-sm">Add</button>
+            </div>
+        </div>
+        <div *ngFor="let item of candidateList" class="card mb-4">
+            <div class="card-header row p-2 mb-1">
+                <div class="col-10">
+                    <span>
+                        <img src="http://localhost:5224/Images/{{item.picture}}" width="32px" class="rounded-5">
+                    </span>
+                    <strong> Name : </strong>{{item.candidateName}}
+                </div>
+                <div class="col-2 my-auto d-flex justify-content-end">
+                    <button class="btn btn-outline-success btn-sm"
+                        [routerLink]="['/masterDetails/Edit/',item.candidateId]">Edit</button>&nbsp;
+                    <button class="btn btn-outline-danger btn-sm" (click)="OnDelete(item)">Delete</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>Skill Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let sk of item.skillList">
+                            <td>{{getSkillName(sk.skillId)}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
